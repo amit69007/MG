@@ -1,0 +1,71 @@
+#row{
+background: linear-gradient(to bottom,rgb(41,46,73,0.5),rgb(41,46,73));
+padding-bottom: 144px;
+}
+#container {
+padding-top: 20px;
+padding-left: 30px;
+padding-right: 70px;
+margin-inline-start: 60px;
+position: relative;
+width: 560px;
+height: 465px;
+left: 300px;
+top: 65px;
+border-radius:1%;
+background-color: white;
+}
+#link{
+position: relative;
+top: 0px;
+left:0px ;
+padding-top: 10px;
+}
+.btn-dark{
+background-color: black !important;
+width: 500px !important;
+}
+#Round {
+text-align: left;
+padding-left: 0px;
+width: 500px;
+color: black;
+background-color: white;
+position: relative;
+top: 2px;
+left: 0;
+}
+.Logo1 {
+width: 100px;
+position: relative;
+left: 200px;
+}
+.form-control {
+height: 50px;
+width: 500px;
+border-color:black;
+background: transparent;
+}
+.Form1 {
+position: absolute;
+}
+.form-floating{
+position: relative;
+}
+.form-control:focus~.Form1 {
+top: -1.4rem;
+font-size: 20px;
+background-color:white;
+}
+.form-control:focus~.Form2 {
+top: -1.4rem;
+font-size: 20px;
+background-color: white;
+}
+.form-control:focus {
+box-shadow: none;
+border: 2px solid pink;
+}
+#Round:hover{
+color: black !important;
+}

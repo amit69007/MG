@@ -1,0 +1,148 @@
+.modal{
+display: block;
+border: 2px solid black;
+background-color: rgb(49,49,49,0.8);
+}
+#for {
+border: 1px solid black;
+border-radius: 0.5%;
+width: 100vw;
+position: relative;
+left: 20px;
+height: 112vh;
+top: 50px;
+background-color: white;
+}
+.Drake {
+display: inline-block;
+position: relative;
+top: 20px;
+width: 554px;
+/* border: 2px solid black; */
+}
+.Eminem {
+display: inline-block;
+position:relative;
+top: 115px;
+right: 555px;
+width: 553px;
+/* border: 2px solid black; */
+}
+.Taylor {
+display: inline-block;
+left: 558px;
+/* border: 2px solid black; */
+width: 564px;
+bottom: 66px;
+}
+.Halsey {
+display: inline-block;
+position: relative;
+top: 150px;
+right: 565px;
+width: 540px;
+/* border: 2px solid black; */
+}
+.Rana {
+display: inline-block;
+position: relative;
+top: 66px;
+left: 560px;
+/* border: 2px solid black; */
+width: 550px;
+}
+.Draco {
+display: inline-block;
+position: relative;
+top: 170px;
+right: 552px;
+/* border: 2px solid black; */
+width: 540px;
+}
+.Leo {
+display: inline-block;
+position: relative;
+top: 90px;
+left: 560px;
+/* border: 2px solid black; */
+width: 555px;
+}
+.Tom {
+display: inline-block;
+position: relative;
+top: 210px;
+right: 558px;
+width: 538px;
+/* border: 2px solid black; */
+}
+.Hardy {
+display: inline-block;
+position: relative;
+top: 130px;
+left: 560px;
+/* border: 2px solid black; */
+width: 558px;
+}
+.Lord {
+display: inline-block;
+position: relative;
+right: 2px;
+width: 550px;
+bottom: 220px;
+/* border: 2px solid black; */
+}
+.form-select{
+display: inline-block;
+height: 55px;
+width: 505px;
+}
+.btn {
+position: relative;
+top: 180px;
+left: 460px;
+/* border: 2px solid black; */
+width: 200px;
+background-color: rgba(37,45,58,.4);
+color: white;
+}
+.form-control,.form-select,.btn:focus {
+box-shadow: none !important;
+}
+.Ikaris,:focus~.Form {
+top: -1.3rem;
+background-color: white;
+}
+.btn:hover{
+background-color: rgba(37,45,58);
+color: white;
+}
+#btn1:hover{
+background-color: rgba(37,45,58);
+color: white;
+}
+.icon-button{
+position: relative;
+bottom: 420px;
+left: 860px;
+background-color: white;
+border: none !important;
+}
+.material-icons{
+color: red;
+border: none !important;
+}
+#btn1{
+position: relative;
+top: -205px;
+left: 450px;
+/* border: 2px solid black; */
+width: 70px;
+background-color: rgba(37,45,58,.4);
+color: white;
+font-size: 10px;
+height: 30px;
+}
+#zeus{
+position: relative;
+left: 435px;
+}
