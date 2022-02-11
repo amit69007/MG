@@ -1,0 +1,67 @@
+.spark{
+border-radius: 50%;
+border: none !important;
+background-color: #f5f6fa;
+position: relative;
+bottom: 110px;
+left: 1170px;
+}
+.material-icons{
+font-size: 40px; 
+}
+#adam{
+color: black;
+border: 1px solid black !important;
+border-radius: 50% !important;
+}
+.btn:hover{
+background-color:#5db5c4;
+}
+#lol{
+position: relative;
+left: 90px;
+top: 0px;
+width: 100px;
+background-color: #5db5c4;
+padding-left:8px;
+}
+.go{
+display: inline-block;
+width: 300px;
+height: 300px;
+position: relative;
+right: 80px;
+background:linear-gradient(0deg,#252d3a,#252d3a);
+bottom: -10px;
+border-radius:2%;
+}
+#low{
+position:relative; 
+top: 10px;
+width: 230px;
+left: 20px;
+/* border: 2px solid black; */
+}
+.void{
+border: none !important;
+position: relative;
+bottom: 120px;
+left: 50px;
+background-color: #f5f6fa;
+}
+.zoro{
+color: white;
+border: none;
+position: relative;
+left: 25px;
+top: 30px;
+font-size: 35px;
+background:linear-gradient(0deg,#252d3a,#252d3a);
+}
+.doll{
+font-size: 20px;
+position: relative;
+bottom: 10px;
+left: 12px;
+font-size: small;
+}

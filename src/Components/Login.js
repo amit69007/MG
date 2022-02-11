@@ -32,7 +32,7 @@ setEmail(event.target.value)
 return (
 <div id="row"> 
 <div className="container" id='container'>
-<img src="./MG logo.svg" alt="Logo" className="Logo1 mb-3" />
+<img src="./MG logo.svg" alt="Logo" className="Logo1 mb-3"/>
 <form >
 <div className="form-floating mb-5">
 <input type="email" className="form-control" id="floatingInput" placeholder="Email" value={email} onChange={handleOnChange} onClick={emailValidation}/>
