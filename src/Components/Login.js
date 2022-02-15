@@ -28,7 +28,7 @@ export default function Login() {
   };
   return (
     <div id="row">
-      <div className="container" id="container">
+      <div id="container">
         <img src="./MG logo.svg" alt="Logo" className="Logo1 mb-3" />
         <form>
           <div className="form-floating mb-5">

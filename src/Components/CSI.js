@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import { Link } from "react-router-dom";
 import "./SSI.css";
 import "./Form.css";
 export default function CSI() {
@@ -45,9 +46,12 @@ export default function CSI() {
         <img src="./MG.svg" alt="Logo" className="Logo" />
         <div className="Button">
           <div className="CSI">
-            <button type="button" className="btn mx-5" id="now">
+            <Link type="click" className="btn mx-5" id="now" to="/Navbar">
               <b>CSI</b>
-            </button>
+            </Link>
+            {/* <button type="button" className="btn mx-5" id="now">
+<b>CSI</b>
+</button> */}
           </div>
           <div className="SSI">
             <button
