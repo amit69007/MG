@@ -2,10 +2,10 @@ import React,{useState} from 'react'
 import {motion} from "framer-motion"
 import './Navbar.css'
 export default function Navbar(){
-const[open,setOpen]=useState(0)
+const[open,setOpen]=useState(false)
 function toggle(){
 setOpen(!open)
-}
+};
 return (
 <>
 <nav className=" navbar bg-light">
@@ -22,7 +22,7 @@ person
 </span>
 </button>
 <div className="go">
-<motion.div animate={ {width:open? "200px": "5px"  }}/>
+<motion.div animate={{width:open?"500px":"900px"}}>
 <img src="./MG-non.svg" alt="list" id="low" />
 <div className="scrollbar">
 <button type="button" className="zoro">
@@ -79,6 +79,7 @@ person
 <span className='bolt'>ver: 2.0.0</span>
 </div>
 </div>
+</motion.div>
 </div>
 </>
 )
