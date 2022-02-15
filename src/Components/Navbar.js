@@ -22,7 +22,7 @@ person
 </span>
 </button>
 <div className="go">
-<motion.div animate={{width:open?"500px":"900px"}}>
+<motion.div animate={{width:open?"500px":"50px"}}>
 <img src="./MG-non.svg" alt="list" id="low" />
 <div className="scrollbar">
 <button type="button" className="zoro">
