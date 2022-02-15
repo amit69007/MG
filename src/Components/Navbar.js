@@ -1,6 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
+import {motion} from "framer-motion"
 import './Navbar.css'
 export default function Navbar(){
+const[open,setOpen]=useState(0)
+function toggle(){
+setOpen(!open)
+}
 return (
 <>
 <nav className=" navbar bg-light">
@@ -8,8 +13,8 @@ return (
 <b>Dashboard</b>
 </button>
 </nav>
-<button type="button" className="void">
-<span className="material-icons-outlined">format_list_bulleted</span>
+<button type="button" className="void" onClick={toggle}>
+<span className="material-icons-outlined" >format_list_bulleted</span>
 </button>
 <button type="button" className="spark">
 <span className="material-icons" id="adam">
@@ -17,6 +22,7 @@ person
 </span>
 </button>
 <div className="go">
+<motion.div animate={ {width:open? "200px": "5px"  }}/>
 <img src="./MG-non.svg" alt="list" id="low" />
 <div className="scrollbar">
 <button type="button" className="zoro">
