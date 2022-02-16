@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 import "./SSI.css";
 import "./Form.css";
 export default function CSI() {
-  const [firstErr, setFirstErr] = useState("");
-  const [lastErr, setLastErr] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const firstHandler = (event) => {
-    let item = event.target.value;
-    if (item.length < 6) {
-      setFirstErr(true);
-    } else {
-      setFirstErr(false);
-    }
-  };
+const [firstErr, setFirstErr] = useState("");
+const [lastErr, setLastErr] = useState("");
+const [email, setEmail] = useState("");
+const [message, setMessage] = useState("");
+const firstHandler = (event) => {
+let item = event.target.value;
+if (item.length < 6) {
+setFirstErr(true);
+} else {
+setFirstErr(false);
+}
+};
   const LastHandler = (Event) => {
     let item = Event.target.value;
     if (item.length < 6) {
@@ -43,33 +43,24 @@ export default function CSI() {
   return (
     <>
       <div className="block">
-        <img src="./MG.svg" alt="Logo" className="Logo" />
-        <div className="Button">
-          <div className="CSI">
-            <Link type="click" className="btn mx-5" id="now" to="/Navbar">
+        <img src="./MG.svg" alt="Logo" className="Logo" />     
+            <Link type="button" className="btn mx-5" id="now" to="/Navbar">
               <b>CSI</b>
-            </Link>
-            {/* <button type="button" className="btn mx-5" id="now">
-<b>CSI</b>
-</button> */}
-          </div>
-          <div className="SSI">
+            </Link>  
             <button
               type="button"
               id="myBtn"
               onClick={toggleModal}
-              className="btn"
-            >
+              className="btn">
               <b>SSI</b>
-            </button>
-          </div>
-        </div>
+            </button>     
       </div>
       <button type="button" className="icon">
         <span className="material-icons" id="out">
           person
         </span>
       </button>
+      
       {Modal ? (
         <div className="modal">
           <div className="container" id="for">
@@ -90,20 +81,13 @@ export default function CSI() {
               </label>
             </div>
             <div className="Eminem form-floating">
-              <input
-                type="email"
-                className="Ikaris form-control"
-                id="floatingInput"
-                placeholder="Email"
-                value={email}
-                onChange={handleOnChange}
-                onClick={emailValidation}
-              />
-              <span>{message}</span>
-              <label className="Form" htmlFor="floatingInput">
+<input type="email"className="Ikaris form-control" id="floatingInput" placeholder="Email" value={email}  onChange={handleOnChange} onClick={emailValidation}/>          
+    {/* <spam id="sos">{message}</spam> */}
+             <label className="Form" htmlFor="floatingInput">
                 Email
               </label>
-            </div>
+            </div> 
+            <span id="sos">{message}</span>
             <div className="Taylor form-floating">
               <input
                 type="email"
@@ -172,37 +156,32 @@ export default function CSI() {
               <label htmlFor="exampleInputEmail1" className="form-label">
                 SSI Outlets (Multiple)
               </label>
-              <input
-                type="email"
-                className="form-control"
-                id="exampleInputEmail1"
-              />
-            </div>
-            <div className="Lord">
-              <label htmlFor="floatingInput">Designation</label>
-              <select className="form-select">
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-                <option value="4">Four</option>
-              </select>
-            </div>
-            <button type="submit" className="btn" id="zeus">
-              <b>Register</b>
-            </button>
-            <button type="button" className="icon-button">
-              <span className="material-icons" onClick={toggleModal}>
-                highlight_off
-              </span>
-            </button>
-            <button type="select" id="btn1" className="btn">
-              <b>Select All</b>
-            </button>
-          </div>
-        </div>
-      ) : (
-        ""
-      )}
-    </>
-  );
+<input type="email" className="form-control" id="exampleInputEmail1"/>
+</div>
+<div className="Lord">
+<label htmlFor="floatingInput">Designation</label>
+<select className="form-select">
+<option value="1">One</option>
+<option value="2">Two</option>
+<option value="3">Three</option>
+<option value="4">Four</option>
+</select>
+</div>
+<button type="submit" className="btn" id="zeus">
+<b>Register</b>
+</button>
+<button type="button" className="icon-button">
+<span className="material-icons" onClick={toggleModal}>
+highlight_off
+</span>
+</button>
+<button type="select" id="btn1" className="btn">
+<b>Select All</b>
+</button>
+</div>
+</div>
+):(
+"")}
+</>
+);
 }
