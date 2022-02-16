@@ -26,7 +26,7 @@ position:relative;
 top: 115px;
 right: 555px;
 width: 553px;
-/* border: 2px solid black; */
+border: 2px solid black;
 }
 .Taylor {
 display: inline-block;
@@ -108,11 +108,11 @@ color: white;
 .form-control,.form-select,.btn:focus {
 box-shadow: none !important;
 }
-.Ikaris,:focus~.Form {
+.Ikaris,:focus~.Form{
 top: -1.3rem;
 background-color: white;
 }
-.btn:hover{
+#zeus:hover{
 background-color: rgba(37,45,58);
 color: white;
 }
@@ -146,3 +146,8 @@ height: 30px;
 position: relative;
 left: 435px;
 }
+/* #sos{
+position: relative;
+top: 200px;
+right: 716px;
+} */
