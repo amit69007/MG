@@ -27,10 +27,10 @@ export default function Login() {
     setEmail(event.target.value);
   };
   return (
-    <div id="row">
-      <div id="container">
+    <div className="login_container">
+      <div className="login-form">
         <img src="./MG logo.svg" alt="Logo" className="Logo1 mb-3" />
-        <form>
+        <form style={{ width: "80%" }}>
           <div className="form-floating mb-5">
             <input
               type="email"
@@ -40,6 +40,7 @@ export default function Login() {
               value={email}
               onChange={handleOnChange}
               onClick={emailValidation}
+              style={{ width: "100%" }}
             />
             <p>{message}</p>
             <label htmlFor="floatingInput" className="Form1">
@@ -53,6 +54,7 @@ export default function Login() {
               id="floatingPassword"
               onChange={passwordHandler}
               placeholder="Password"
+              style={{ width: "100%" }}
             />
             {PassErr ? <span>Password is Not Valid</span> : ""}
             <label htmlFor="floatingPassword" className="Form2">
@@ -62,10 +64,8 @@ export default function Login() {
           <Link type="click" className="btn btn-dark" id="link" to="/CSI">
             <b>Login</b>
           </Link>
+          <div style={{ float: "left", padding: "5px" }}>Forgot Password?</div>
         </form>
-        <button type="button" className="btn" id="Round">
-          Forgot Password?
-        </button>
       </div>
     </div>
   );

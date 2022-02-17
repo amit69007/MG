@@ -1,73 +1,70 @@
-#row{
-background: linear-gradient(to bottom,rgb(41,46,73,0.5),rgb(41,46,73)) ;
-padding-bottom: 43vh;
-height: 100vh;
+.login_container {
+  background: linear-gradient(to bottom, rgb(41, 46, 73, 0.5), rgb(41, 46, 73));
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#container {
-padding-top: 20px;
-padding-left: 30px;
-padding-right: 70px;
-margin-inline-start: 60px;
-position: relative;
-width: 560px;
-height: 465px;
-left: 300px;
-top: 65px;
-border-radius:1%;
-background-color: white;
-
+.login-form {
+  height: 60%;
+  width: 35%;
+  border-radius: 1%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-#link{
-position: relative;
-top: 0px;
-left:0px ;
-padding-top: 10px;
+#link {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding-top: 10px;
 }
-.btn-dark{
-background-color: black !important;
-width: 500px !important;
+.btn-dark {
+  background-color: black !important;
+  width: 100% !important;
 }
 #Round {
-text-align: left;
-padding-left: 0px;
-width: 500px;
-color: black;
-background-color: white;
-position: relative;
-top: 2px;
-left: 0;
+  text-align: left;
+  padding-left: 0px;
+  width: 500px;
+  color: black;
+  background-color: white;
+  position: relative;
+  top: 2px;
+  left: 0;
 }
 .Logo1 {
-width: 100px;
-position: relative;
-left: 200px;
+  width: 100px;
 }
 .form-control {
-height: 50px;
-width: 500px;
-border-color:black;
-background: transparent;
+  height: 50px;
+  width: 500px;
+  border-color: black;
+  background: transparent;
 }
 .Form1 {
-position: absolute;
+  position: absolute;
 }
-.form-floating{
-position: relative;
+.form-floating {
+  position: relative;
 }
-.form-control:focus~.Form1 {
-top: -1.4rem;
-font-size: 20px;
-background-color:white;
+.form-control:focus ~ .Form1 {
+  top: -1.4rem;
+  font-size: 20px;
+  background-color: white;
 }
-.form-control:focus~.Form2 {
-top: -1.4rem;
-font-size: 20px;
-background-color: white;
+.form-control:focus ~ .Form2 {
+  top: -1.4rem;
+  font-size: 20px;
+  background-color: white;
 }
 .form-control:focus {
-box-shadow: none;
-border: 2px solid pink;
+  box-shadow: none;
+  border: 2px solid pink;
 }
-#Round:hover{
-color: black !important;
+#Round:hover {
+  color: black !important;
 }

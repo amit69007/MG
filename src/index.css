@@ -1,8 +1,11 @@
+/* in top most parent "body" define the height and width */
 body {
-height: 100vh;
-width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
+
+/* next child with id root passing the parent (body) height and width */
 #root {
-height: 100%;
-width: 100%;
+  height: 100%;
+  width: 100%;
 }
