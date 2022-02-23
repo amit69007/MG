@@ -114,8 +114,7 @@ Last Name
 <label className="Form" htmlFor="floatingInput">
 Email
 </label>
-</div> 
-<span id="sos">{message}</span>
+</div>
 <div className="Lord mx-4">
 <label htmlFor="floatingInput">Designation</label>
 <select className="form-select">
