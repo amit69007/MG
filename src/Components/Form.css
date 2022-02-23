@@ -1,107 +1,73 @@
 .modal{
-display: block;
-border: 2px solid black;
+display: flex;
 background-color: rgb(49,49,49,0.8);
+justify-content: center;
+align-items: center;
 }
 #for {
-border: 1px solid black;
+/* border: 2px solid black; */
 border-radius: 0.5%;
-width: 100vw;
+width: 100%;
+height: 100%;
 position: relative;
-left: 20px;
-height: 112vh;
-top: 50px;
 background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+top: 10%;
+overflow: auto;
 }
 .Drake {
-display: inline-block;
-position: relative;
-top: 20px;
-width: 554px;
+top: 0%;
 /* border: 2px solid black; */
+left: 0%;
+width: 40%;
 }
 .Eminem {
-display: inline-block;
-position:relative;
-top: 115px;
-right: 555px;
-width: 553px;
+width: 40%;
 /* border: 2px solid black; */
 }
 .Taylor {
-display: inline-block;
-left: 558px;
+left: 0%;
+top: 0%;
 /* border: 2px solid black; */
-width: 564px;
-bottom: 66px;
+width: 40%;
 }
 .Halsey {
-display: inline-block;
-position: relative;
-top: 150px;
-right: 565px;
-width: 540px;
+width: 40%;
 /* border: 2px solid black; */
 }
 .Rana {
-display: inline-block;
-position: relative;
-top: 66px;
-left: 560px;
 /* border: 2px solid black; */
-width: 550px;
+width: 40%;
 }
 .Draco {
-display: inline-block;
-position: relative;
-top: 170px;
-right: 552px;
 /* border: 2px solid black; */
-width: 540px;
+width: 40%;
 }
 .Leo {
-display: inline-block;
-position: relative;
-top: 90px;
-left: 560px;
 /* border: 2px solid black; */
-width: 555px;
+width: 40%;
 }
 .Tom {
-display: inline-block;
-position: relative;
-top: 210px;
-right: 558px;
-width: 538px;
+width: 40%;
 /* border: 2px solid black; */
 }
 .Hardy {
-display: inline-block;
-position: relative;
-top: 130px;
-left: 560px;
 /* border: 2px solid black; */
-width: 558px;
+width:40%;
 }
 .Lord {
-display: inline-block;
-position: relative;
-right: 2px;
-width: 550px;
-bottom: 220px;
+width: 40%;
 /* border: 2px solid black; */
-}
-.form-select{
-display: inline-block;
-height: 55px;
-width: 505px;
 }
 .btn {
 position: relative;
-top: 180px;
-left: 460px;
+top: 100%;
+left: 50%;
 /* border: 2px solid black; */
-width: 200px;
+width: 50%;
 background-color: rgba(37,45,58,.4);
 color: white;
 }
@@ -121,9 +87,6 @@ background-color: rgba(37,45,58);
 color: white;
 }
 .icon-button{
-position: relative;
-bottom: 420px;
-left: 860px;
 background-color: white;
 border: none !important;
 }
@@ -133,21 +96,102 @@ border: none !important;
 }
 #btn1{
 position: relative;
-top: -205px;
-left: 450px;
+top: 0%;
+left: 5%;
 /* border: 2px solid black; */
-width: 70px;
+width: 16%;
 background-color: rgba(37,45,58,.4);
 color: white;
 font-size: 10px;
-height: 30px;
+height: 6%;
 }
 #zeus{
 position: relative;
-left: 435px;
+left: 0%;
+width: 50%;
 }
-/* #sos{
+.bow{
+display: flex;
+/* border: 2px solid red; */
+flex-direction: row;
 position: relative;
-top: 200px;
-right: 716px;
-} */
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+bottom: -5%;
+width: 100%;
+}
+.delta{
+display: flex;
+flex-direction: row;
+/* border: 2px solid blue; */
+width: 100%;
+position: relative;
+bottom: -6%;
+right: 0%;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.thor{
+display: flex;
+flex-direction: row;
+/* border: 2px solid gray; */
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+width: 100%;
+bottom: -8%;
+position: relative;
+}
+.lid{
+display: flex;
+flex-direction: row;
+/* border: 2px solid yellow; */
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+width: 100%;
+position: relative;
+bottom: -14%;
+}
+.war{
+display: flex;
+flex-direction: row;
+/* border: 2px solid green; */
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+position: relative;
+width: 100%;
+bottom: -20%;
+}
+#hi{
+display: flex;
+flex-direction: row;
+/* border: 2px solid burlywood; */
+width:50%;
+right: 0%;
+position: relative;
+} 
+#dua{
+display: flex;
+flex-direction: row;
+/* border: 2px solid orange; */
+justify-content: center;
+align-items: center;
+width: 50%;
+top: 30%;
+position: relative;
+}
+#ray{
+display: flex;
+width: 50%;
+flex-direction: row;
+/* border: 2px solid ; */
+align-items: flex-end;
+justify-content: flex-end;
+position: relative;
+bottom: 0%;
+left: 0%;
+}

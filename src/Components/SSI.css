@@ -1,22 +1,39 @@
-body{
-background-color: #f5f6fa;
-}
 .block{
-height: 490px;
-position:relative;
-top: 70px;
-width: 900px;
-left: 160px;
+background-color:#f5f6fa;
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+/* border: 2px solid blue; */
+}
+.ground{
 /* border: 2px solid black; */
-display: inline-block;
+height: 50%;
+width: 70%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.stan{
+display: flex;
+justify-content: center;
+/* border: 2px solid yellow; */
+flex-direction: row;
+align-items: center;
+position: relative;
+top: 0%;
+right: 0%;
+width: 100%;
 }
 .Logo{
-width: 500px;
-height: 130px;
+width: 60%;
+height: 70%;
 position: relative;
-top: 150px;
+bottom: 15px;
 display: inline-block;
-left: 200px;
+left: 0%;
 }
 .Button{
 /* position: relative; */
@@ -34,10 +51,10 @@ color: white;
 .icon{
 border-radius: 50%;
 border: none !important;
-background-color: #f5f6fa;
+background-color: #f5f6fa !important;
 position: relative;
-bottom: 110px;
-left: 320px;
+bottom: 40%;
+left: 10%;
 }
 .material-icons{
 font-size: 40px; 
@@ -46,6 +63,7 @@ font-size: 40px;
 color: black;
 border: 1px solid black !important;
 border-radius: 50% !important;
+background-color: #f5f6fa !important;
 }
 .btn:focus{
 box-shadow: none !important;
@@ -59,15 +77,19 @@ color: white !important;
 background-color: #398d9c;
 }
 #now{
-width: 340px;
-padding-top: 11px;
+width: 100%;
+/* padding-top: 11px; */
 position: relative;
-left: 30px;
-top: 230px;
+left: 0%;
+top: 0%;
 }
 #myBtn{
-width: 340px;
+width: 100%;
 position: relative;
-left: 80px;
-top: 230px;
+left: -30px;
+top: 0px;
+}
+#wall{
+position: relative;
+bottom:15%;
 }
