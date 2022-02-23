@@ -57,12 +57,14 @@ className="btn">
 <b id="wall">SSI</b>
 </button>
 </div>
-</div>     
+</div> 
+<div className="lil">
 <button type="button" className="icon">
 <span className="material-icons" id="out">
 person
 </span>
 </button>
+</div>    
 </div>
 {Modal ? (
 <div className="modal ">

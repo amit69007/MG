@@ -54,7 +54,7 @@ border: none !important;
 background-color: #f5f6fa !important;
 position: relative;
 bottom: 40%;
-left: 10%;
+left: 0%;
 }
 .material-icons{
 font-size: 40px; 
@@ -92,4 +92,14 @@ top: 0px;
 #wall{
 position: relative;
 bottom:15%;
+}
+.lil{
+display: flex;
+flex-direction: row;
+/* border: 2px solid red; */
+position: relative;
+bottom: 40%;
+left: 10%;
+justify-content: center;
+align-items: center;
 }
