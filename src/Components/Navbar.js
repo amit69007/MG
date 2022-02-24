@@ -82,5 +82,5 @@ person
 </motion.div>
 </div>
 </>
-);
+)
 }
